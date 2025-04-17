@@ -1,4 +1,4 @@
-/* Top nav bar styles */
+/* Top nav bar styles
 .custom-nav {
   display: flex;
   align-items: center;
@@ -38,48 +38,22 @@
   text-decoration: underline;
 }
 
-/* Hide default Material nav */
+/* Optional: hide default Material nav */
 .md-header, .md-tabs {
   display: none;
 }
 
-/* Custom header styles */
-.custom-nav {
-  display: flex;
-  align-items: center;
-  padding: 0.75rem 1.5rem;
-  background-color: white;
-  border-bottom: 1px solid #e0e0e0;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
-.logo-link {
-  display: inline-block;
-}
-
-.nav-logo {
-  height: 40px;
+.hero-logo {
+  max-height: 13%;
+  height: auto;
   width: auto;
-  margin-right: 2rem;
+  max-width: 13%;      /* optional: avoid overscaling horizontally */
+  display: block;
+  margin: 0 auto;
 }
 
-.nav-links {
-  display: flex;
-  gap: 1.5rem;
-  flex-wrap: wrap;
-}
-
-.nav-item {
-  color: #000000; /* black default */
-  text-decoration: none;
-  font-weight: 500;
-  font-family: Georgia, serif;
-  transition: color 0.2s ease;
-}
-
-.nav-item:hover {
-  color: #cc0000; /* red on hover */
-  text-decoration: underline;
+.hero-header {
+  background-color: #000;
+  padding: 2rem 0;
+  text-align: center;
 }
