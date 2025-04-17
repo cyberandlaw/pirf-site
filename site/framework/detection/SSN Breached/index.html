@@ -1,0 +1,489 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
+    
+    
+      
+        <title>SSN Breached - Cyber and Law | Personal Incident Response Framework</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.2afb09e1.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Georgia:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Georgia";--md-code-font:"Fira Code"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../overrides/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="black">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#collect-information-and-document-everything" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+  <div class="hero-header">
+    <img src="../../../assets/images/logo.png" alt="CAL Cybersecurity and Law Logo" class="hero-logo">
+  </div>
+
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Cyber and Law | Personal Incident Response Framework" class="md-nav__button md-logo" aria-label="Cyber and Law | Personal Incident Response Framework" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Cyber and Law | Personal Incident Response Framework
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    About
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pirf-profiles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PIRF Profiles
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Incidents
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Incidents
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../prevention/prevention/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Prevent
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../detection/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Detect
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../remediation/remediation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Remediate
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#collect-information-and-document-everything" class="md-nav__link">
+    <span class="md-ellipsis">
+      Collect Information and Document Everything
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#freeze-your-credit-set-up-alerts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Freeze Your Credit &amp; Set Up Alerts
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file-identity-theft-reports" class="md-nav__link">
+    <span class="md-ellipsis">
+      File Identity Theft Reports
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#report-fraudulent-activity-to-your-bank-and-credit-issuers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Report Fraudulent Activity to Your Bank and Credit Issuers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#protect-your-data-going-forward" class="md-nav__link">
+    <span class="md-ellipsis">
+      Protect Your Data Going Forward
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>SSN Breached</h1>
+
+<p><strong>TL;DR</strong>
+1. <strong>Freeze credit at major bureaus.</strong>
+2. <strong>Request credit report</strong>
+3. <strong>Set up fraud alerts.</strong></p>
+<hr />
+<h2 id="collect-information-and-document-everything">Collect Information and Document Everything</h2>
+<p><strong>Record-Keeping Is Essential</strong>
+It's important to store all communications and information related to your Social Security number or credit reports. Note the date and time when you discover any issues and document every interaction with banks, credit issuers, credit bureaus, and federal agencies. Keep copies of the credit reports you request for your records.</p>
+<p>Federal law allows you to obtain a free copy of your credit report every 12 months from each of the three major credit reporting companies. By requesting these reports separately—for example, one every four months—you can monitor your credit throughout the year.</p>
+<p><strong>How to Request Your Free Credit Report:</strong>
+- <strong>Online</strong>: Visit <a href="https://www.annualcreditreport.com/">AnnualCreditReport.com</a>
+- <strong>Phone</strong>: Call <strong>(877) 322-8228</strong>
+- <strong>Mail</strong>: Download and complete the <a href="https://www.annualcreditreport.com/manualRequestForm.action">Annual Credit Report Request Form</a> and mail it to:
+    Annual Credit Report Request Service 
+    P.O. Box 105281 
+    Atlanta, GA 30348-5281</p>
+<p>For more information, visit the <a href="https://www.consumerfinance.gov/ask-cfpb/how-do-i-get-a-free-copy-of-my-credit-reports-en-5/">Consumer Financial Protection Bureau</a>.</p>
+<p><strong>What to Look for When Reviewing Your Credit Report:</strong>
+1. <strong>Check for Identity Errors</strong>
+    - Mistakes in your personal information (wrong name, phone number, address)
+    - Accounts belonging to someone with a similar name (mixed files)
+    - Unauthorized accounts resulting from identity theft
+2. <strong>Check for Incorrect Reporting of Account Status</strong>
+    - Closed accounts reported as open
+    - Incorrectly listed as the owner of an account when you're just an authorized user
+    - Accounts inaccurately reported as late or delinquent
+    - Wrong dates for last payment, account opening, or first delinquency
+    - Duplicate debts listed more than once under different names
+3. <strong>Check for Data Management Errors</strong>
+    - Accounts showing incorrect current balances
+    - Accounts with incorrect credit limits</p>
+<p>For more details on common errors, visit <a href="https://www.consumerfinance.gov/ask-cfpb/what-are-common-credit-report-errors-that-i-should-look-for-on-my-credit-report-en-313/">Common Credit Report Errors</a>.</p>
+<p><strong>How to Dispute Errors:</strong>
+If you find any errors, report them to the credit bureau promptly. Learn how to dispute errors here: <a href="https://www.consumerfinance.gov/ask-cfpb/how-do-i-dispute-an-error-on-my-credit-report-en-314/">Disputing Credit Report Errors</a>.</p>
+<hr />
+<h2 id="freeze-your-credit-set-up-alerts">Freeze Your Credit &amp; Set Up Alerts</h2>
+<p>Freezing your credit is essential. It prevents unauthorized access to your credit reports, which can stop attackers in their tracks. Sometimes it can slow down applications for credit cards or other legitimate credit checks, but it is easy to unfreeze when needed. Ultimately, the added security is worth the trade-off in efficiency. Credit freezes are <strong>free</strong>; if you are being asked to pay, it's not for a credit freeze.</p>
+<p><strong>Freeze Your Credit at the Three Major Credit Reporting Agencies:</strong>
+- <strong>Equifax</strong>: <a href="https://www.equifax.com/personal/credit-report-services/credit-freeze/">Freeze Your Equifax Credit Report</a>
+- <strong>Experian</strong>: <a href="https://www.experian.com/freeze/center.html">Freeze Your Experian Credit Report</a>
+- <strong>TransUnion</strong>: <a href="https://www.transunion.com/credit-freeze">Freeze Your TransUnion Credit Report</a></p>
+<p><strong>Set Up Fraud Alerts at the Three Major Credit Reporting Agencies:</strong>
+- <strong>Equifax</strong>: <a href="https://www.equifax.com/personal/credit-report-services/credit-fraud-alerts/">Equifax Credit Fraud Alerts</a>
+- <strong>Experian</strong>: <a href="https://www.experian.com/fraud/center.html">Experian Fraud Center</a>
+- <strong>TransUnion</strong>: <a href="https://www.transunion.com/fraud-alerts">TransUnion Fraud Alerts</a></p>
+<p>Anyone can apply for the one-year alerts. A seven-year alert option is available with proof of identity theft.</p>
+<p>An <strong>initial fraud alert</strong> stays in your file for at least one year. An <strong>extended alert</strong> stays in your file for seven years. To place either of these alerts, a consumer reporting agency will require you to provide appropriate proof of your identity, which may include your Social Security number. If you ask for an extended alert, you will have to provide an identity theft report. This report includes a copy of a report you have filed with a federal, state, or local law enforcement agency, and any additional information a consumer reporting agency may require you to submit. For more detailed information about the identity theft report, visit <a href="https://www.consumerfinance.gov/ask-cfpb/what-do-i-do-if-i-think-i-have-been-a-victim-of-identity-theft-en-31/">What to Do If You're a Victim of Identity Theft</a>.</p>
+<p><em>Note that not all forms of fraudulent activity involving your SSN will be hampered by a credit freeze. Even if your credit is frozen, set up credit alerts (often offered for free through credit card issuers) and/or check your credit report regularly to identify errors quickly.</em></p>
+<hr />
+<h2 id="file-identity-theft-reports">File Identity Theft Reports</h2>
+<p>If you have evidence of fraudulent activity it makes sense to file identity theft reports with one or more of the following agencies:
+- <strong>Federal Trade Commission (FTC)</strong>: File a report at <a href="https://www.identitytheft.gov/">IdentityTheft.gov</a>. You'll need to summarize your claim, provide details of the fraudulent activity, and sign a statement. Keep a copy of this report for future reference and to support additional claims with other agencies.
+- <strong>Local Police Department</strong>: File a police report with your local law enforcement agency, which can often be done online. You may need your completed FTC report to file this. Add the police report to your records to provide when disputing charges with creditors and agencies.
+- <strong>Social Security Administration (SSA) Office of the Inspector General</strong>: Submit a report either <a href="https://oig.ssa.gov/report/">online</a> or by calling <strong>1-800-269-0271</strong>.</p>
+<hr />
+<h2 id="report-fraudulent-activity-to-your-bank-and-credit-issuers">Report Fraudulent Activity to Your Bank and Credit Issuers</h2>
+<ul>
+<li><strong>Contact Financial Institutions Immediately</strong>: If you notice unauthorized charges or accounts, report them right away. Credit card issuers typically won't hold you responsible for fraudulent purchases and will issue new cards.</li>
+<li><strong>Request New Cards as a Precaution</strong>: Even without confirmed fraudulent activity, updating your cards or switching banks can enhance security.</li>
+<li><strong>Federal Student Loan Fraud</strong>: If fraud involves a federal student loan, contact the <a href="https://studentaid.gov/resources/scams#report-fraud-and-identity-theft">Department of Education</a> and the loan servicer to follow their claim process.</li>
+</ul>
+<hr />
+<h2 id="protect-your-data-going-forward">Protect Your Data Going Forward</h2>
+<p>Enhance your personal data security:
+- <strong>Update Passwords and Enable Multi-Factor Authentication</strong>: Start with financial accounts and ensure all your online accounts have strong, unique passwords and multi-factor authentication enabled.
+- <strong>Be Cautious When Sharing Your SSN</strong>: Always question why a company needs your SSN. If it's not essential for the service, you can decline to provide it.</p>
+<p>By following these steps and maintaining proactive habits, you can safeguard your identity and mitigate the effects of any fraudulent activity involving your Social Security number.</p>
+<p>For more information, visit:
+- <a href="https://ovc.ojp.gov/sites/g/files/xyckuh226/files/pubs/ID_theft/tools.html">Office for Victims of Crime: Identity Theft Resources</a>
+- <a href="https://www.identitytheft.gov/">IdentityTheft.gov</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+    
+  </body>
+</html>
