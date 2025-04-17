@@ -1,0 +1,10 @@
+site_name: My Docs
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Framework:
+      - Overview: framework/index.md
+      - Detect: framework/detect.md
+      - Respond: framework/respond.md
+      - Recover: framework/recover.md

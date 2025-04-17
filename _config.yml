@@ -1,7 +1,0 @@
-title: "Personal Incident Response Framework"
-description: "Guidance for navigating personal cyber incidents."
-theme: minima
-baseurl: "" # Leave this blank unless using a custom path
-url: "https://cyberandlaw.github.io/pirf-site"
-
-markdown: kramdown
