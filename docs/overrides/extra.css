@@ -57,3 +57,10 @@
   padding: 2rem 0;
   text-align: center;
 }
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #cc0000;        /* True black */
+  --md-primary-bg-color: #999999;
+  --md-accent-fg-color: #999999;         /* Deep red for highlights */
+  --md-accent-bg-color: transparent;
+}
