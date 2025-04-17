@@ -1,4 +1,4 @@
-/* Top nav bar styles
+/* Top nav bar styles */
 .custom-nav {
   display: flex;
   align-items: center;
@@ -54,7 +54,8 @@
 
 .hero-header {
   background-color: #000;
-  padding: 2rem 0;
+  padding: 1rem;
+  position: relative;
   text-align: center;
 }
 
@@ -63,4 +64,80 @@
   --md-primary-bg-color: #999999;
   --md-accent-fg-color: #999999;         /* Deep red for highlights */
   --md-accent-bg-color: transparent;
+}
+
+.favicon-link {
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+}
+
+.blog-icon {
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.hero-nav {
+  background-color: #ffffff;
+  margin: 1%;
+}
+
+.icon-link {
+  height: 3%;
+  width: 3%;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.icon-link:hover {
+  opactiy: 0.7;
+}
+
+.md-social__link {
+  margin-left: 0.5rem;
+}
+
+.md-social__icon {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.md-social__icon:hover {
+  color: #cc0000;
+}
+
+.custom-icon:hover {
+  opacity: 0.7;
+}
+
+.hero-header {
+  position: relative;
+  background-color: #000;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+/* Position the social icons absolutely inside the black header */
+.custom-social-icons {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  padding-right: 10%;
+  gap: 1rem;
+  align-items: center;
+  z-index: 10;
+}
+
+/* Style the image/icon elements */
+.custom-social-icon {
+  width: 25px;
+  height: 25px;
+  transition: opacity 0.2s ease;
+  cursor: pointer;
+}
+
+.custom-social-icon:hover {
+  opacity: 0.7;
 }

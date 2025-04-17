@@ -19,3 +19,9 @@ extra_css:
 extra:
   favicon: assets/images/favicon.png
   logo: assets/images/logo.png
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/cyberandlaw
+      name: GitHub
+plugins:
+  - search
