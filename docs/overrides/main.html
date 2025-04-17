@@ -1,19 +1,15 @@
 {% extends "base.html" %}
 
 {% block header %}
-  <!-- Custom horizontal nav bar with logo -->
-  <div class="custom-nav">
-    <a href="{{ base_url }}/" class="logo-link">
-      <img src="{{ base_url }}assets/images/logo.png" alt="PIRF Logo" class="nav-logo">
-    </a>
-    <nav class="nav-links">
-      <a href="{{ base_url }}/" class="nav-item">Home</a>
-      <a href="{{ base_url }}/framework/prevention/" class="nav-item">Prevention</a>
-      <a href="{{ base_url }}/framework/detection/" class="nav-item">Detection</a>
-      <a href="{{ base_url }}/framework/remediation/" class="nav-item">Remediation</a>
-      <a href="{{ base_url }}/personas/" class="nav-item">Personas</a>
-    </nav>
+  <div class="hero-header">
+    <img src="{{ base_url }}/assets/images/logo.png" alt="CAL Cybersecurity and Law Logo" class="hero-logo">
   </div>
 
-  {{ super() }}  {# include default theme header if needed (optional) #}
+  <nav class="hero-nav">
+    <a href="{{ base_url }}/" class="hero-link">Home</a>
+    <a href="{{ base_url }}/framework/prevention/" class="hero-link">Prevention</a>
+    <a href="{{ base_url }}/framework/detection/" class="hero-link">Detection</a>
+    <a href="{{ base_url }}/framework/remediation/" class="hero-link">Remediation</a>
+    <a href="{{ base_url }}/personas/" class="hero-link">Personas</a>
+  </nav>
 {% endblock %}

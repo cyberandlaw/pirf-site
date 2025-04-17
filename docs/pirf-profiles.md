@@ -1,26 +1,26 @@
 PRIF Profiles are a set of Pre-Built Personal Threat Models you can use and adapt. They are intended as a starting point for anyone interested in improving their personal security and privacy. This list is by no means extensive but should cover the needs of most. Please provide any feedback to feedback@cyberandlaw.com. 
 # Everyone
 ## Baseline - Unknown
-- [ ] Password Manager
-- [ ] VPN
-- [ ] E2EE System Storage
-- [ ] Backups
-- [ ] Phishing Training
-- [ ] IoT Doorbell
-- [ ] Social Media Best Practices
+- Password Manager
+- VPN
+- E2EE System Storage
+- Backups
+- Phishing Training
+- IoT Doorbell
+- Social Media Best Practices
 ## A little more - Target
-- [ ] Extensive Backups
-- [ ] IoT Surrounding Cameras
-- [ ] Social Media Best Practices
+- Extensive Backups
+- IoT Surrounding Cameras
+- Social Media Best Practices
 ## The Most - Snowden Level
-- [ ] Route Randomization
-- [ ] Non-Networked Security Cameras
-- [ ] Lockdown mode iPhone
-- [ ] Everything E2EE
-- [ ] Tor
-- [ ] Public Networks
-- [ ] Ephemeral OSs
-- [ ] Containerization/Virtualization
+- Route Randomization
+- Non-Networked Security Cameras
+- Lockdown mode iPhone
+- Everything E2EE
+- Tor
+- Public Networks
+- Ephemeral OSs
+- Containerization/Virtualization
 # Low Risk
 ### The Plumber: Trades Worker/Stay at Home Parent
 - **Common Threats**: Identity theft, phishing, online scams.

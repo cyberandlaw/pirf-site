@@ -7,7 +7,7 @@ The advice contained herein borrows from current enterprise indicident response 
 
 1. [Prevention](framework/prevention/prevention.md)  
 2. [Detection](framework/detection/detection.md)  
-3. [Remediation](framework/remediation.md)
+3. [Remediation](framework/remediation/remediation.md)
 
 ---
 
