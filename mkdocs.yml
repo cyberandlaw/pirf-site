@@ -8,3 +8,5 @@ nav:
       - Detect: framework/detect.md
       - Respond: framework/respond.md
       - Recover: framework/recover.md
+extra:
+  favicon: images/favicon.png
