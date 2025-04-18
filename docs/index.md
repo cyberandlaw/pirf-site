@@ -9,7 +9,7 @@ Infamous in my family, my grandfather asks me to write down a step-by-step guide
 
 The inspiration for this project stems from lessons learned in industry to unofficial ad hoc guides we've developed for our family and friends after they experience a breach or when they ask for cybersecurity related help. We hope this can serve as a resource for you, your friends and family, and your organization.
 
-The advice contained herein borrows from current enterprise indicident response techniques and simplifies them for everyday users. The core phases in any incident response plan are:
+The advice contained herein borrows from current enterprise incident response techniques and simplifies them for everyday users. The core phases in any incident response plan are:
 
 1. [Prevention](framework/prevention/prevention.md)  
 2. [Detection](framework/detection/detection.md)  
