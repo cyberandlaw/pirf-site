@@ -2,8 +2,12 @@
 
 {% block header %}
   <div class="hero-header">
-    <img src="{{ base_url }}/assets/images/logo.png" alt="CAL Cybersecurity and Law Logo" class="hero-logo">
-    
+    <a href="{{ base_url }}/">
+      <img src="{{ base_url }}/assets/images/logo.png" alt="CAL Cybersecurity and Law Logo" class="hero-logo">
+    </a>
+    <div class="custom-search">
+      {% include "partials/search.html" %}
+    </div>
     <!-- Custom social container -->
     <div class="custom-social-icons">
       <a href="https://www.cyberandlaw.com" target="_blank" title="Visit Cyber & Law Blog">

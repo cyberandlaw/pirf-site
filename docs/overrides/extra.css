@@ -121,23 +121,94 @@
 /* Position the social icons absolutely inside the black header */
 .custom-social-icons {
   position: absolute;
-  bottom: 1rem;
+  top: 1rem;
   right: 1rem;
   display: flex;
   padding-right: 10%;
+  padding-bottom: 1%;
   gap: 1rem;
   align-items: center;
-  z-index: 10;
+  z-index: 1000;
+  pointer-events: auto;
 }
 
 /* Style the image/icon elements */
 .custom-social-icon {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   transition: opacity 0.2s ease;
   cursor: pointer;
 }
 
 .custom-social-icon:hover {
   opacity: 0.7;
+}
+
+.custom-search {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex; 
+  padding-right: 1rem;
+  gap: 1rem;
+  align-items: center;
+  z-index: 1000;
+  pointer-events: auto;
+}
+
+.custom-search .md-search__form {
+  background-color: #000;
+  border-radius: 4px;
+}
+.md-search__input {
+  color: #ffffff;
+  background-color: #000000;  /* optional, if you want full dark style */
+}
+
+.md-search__input::placeholder {
+  color: #999999;
+}
+
+.custom-footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+}
+
+.custom-footer-top {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.custom-footer-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.custom-footer-nav {
+  font-size: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+  color: #cc0000;
+}
+
+.custom-footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
