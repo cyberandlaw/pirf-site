@@ -34,7 +34,8 @@ Find your incident in [Remediation](framework/remediation/remediation.md) and fo
 
 ## FAQs
 
-### What are PIRF Personas?
+### What are PIRF Profiles?
+[PRIF Profiles](pirf-profiles.md) are a set of Pre-Built Personal Threat Models you can use and adapt. They are intended as a starting point for anyone interested in improving their personal security and privacy. This list is by no means extensive but should cover the needs of most. Please provide any feedback to feedback@cyberandlaw.com. 
 
 ### How is this different from Privacy Guides?
 - [Privacy Guides](https://www.privacyguides.org) is fantastic and everyone should use it.
