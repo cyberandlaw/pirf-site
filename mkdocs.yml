@@ -1,5 +1,7 @@
 site_name: Cyber and Law | Personal Incident Response Framework
 site_url: https://pirf.cyberandlaw.com
+markdown_extensions:
+  - footnotes
 theme:
   name: material
   custom_dir: docs/overrides
@@ -10,8 +12,9 @@ theme:
     code: "Fira Code"
 nav:
   - About: index.md
-  - PIRF Profiles: pirf-profiles.md
-  - Incidents:
+  - PIRF Profiles - Start Here: pirf-profiles.md
+  - The Framework:
+      - Overview: framework/overview.md
       - Prevent: framework/prevention/prevention.md
       - Detect: framework/detection/detection.md
       - Remediate: framework/remediation/remediation.md
