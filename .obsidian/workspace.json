@@ -167,6 +167,7 @@
   },
   "active": "6cfdd1f045bc5e5c",
   "lastOpenFiles": [
+    "docs/CNAME",
     "site/search/search_index.json",
     "site/search",
     "site/framework/prevention/prevention/index.html",
@@ -177,7 +178,6 @@
     "site/framework/prevention/GeneralSecurityPractices/index.html",
     "site/framework/prevention/EmailSecurity/index.html",
     "site/framework/prevention/BrowsingSafety/index.html",
-    "site/framework/prevention/Antiviruses/index.html",
     "site/assets/images/favicon.png",
     "site/assets/images/logo.png",
     "docs/pirf-profiles.md",
