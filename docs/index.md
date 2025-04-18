@@ -1,13 +1,21 @@
-## Introduction
-### What is PIRF?
+# Introduction
+## What is PIRF?
 
-PIRF stands for the Personal Incident Response Framework. It’s a public knowledge base for dealing with personal cyber incidents — from “I lost my wallet” to “Grandma clicked a weird link.” Use it yourself, or point your friends and family to this link when they need step-by-setup instructions.
+Cyber and Law launched a project called Personal Incident Response Framework (PIRF).  It’s a free public knowledge base for contending with personal cybersecurity incidents — from “I lost my wallet” to “Grandma clicked a weird link.” Use it yourself, or point your friends and family to this link when they need step-by-setup instructions.
+
+The advice contained herein borrows from current enterprise incident response techniques and simplifies them for everyday users. To use the playbook, you can visit the following link, www.pirf.cyberandlaw.com.
+
+Infamous in my family, my grandfather asks me to write down a step-by-step guide of how to resolve a problem. Think of this playbook as a well-organized compilation of tips from the cybersecurity experts at Cyber and Law in an approachable format regardless of technical skill level.
+
+The inspiration for this project stems from lessons learned in industry to unofficial ad hoc guides we've developed for our family and friends after they experience a breach or when they ask for cybersecurity related help. We hope this can serve as a resource for you, your friends and family, and your organization.
 
 The advice contained herein borrows from current enterprise indicident response techniques and simplifies them for everyday users. The core phases in any incident response plan are:
 
 1. [Prevention](framework/prevention/prevention.md)  
 2. [Detection](framework/detection/detection.md)  
 3. [Remediation](framework/remediation/remediation.md)
+
+Each page in PIRF is designed to be standalone. This is functional: each page will have enough information to resolve an issue without needing to know anything about PIRF.
 
 ---
 
