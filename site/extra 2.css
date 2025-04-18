@@ -1,0 +1,214 @@
+/* Top nav bar styles */
+.custom-nav {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  background-color: black;
+  border-bottom: 1px solid #e0e0e0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo-link {
+  display: inline-block;
+}
+
+.nav-logo {
+  height: 40px;
+  width: auto;
+  margin-right: 2rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.nav-item {
+  color: #1a1a1a;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: Georgia, serif;
+}
+
+.nav-item:hover {
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+/* Optional: hide default Material nav */
+.md-header, .md-tabs {
+  display: none;
+}
+
+.hero-logo {
+  max-height: 13%;
+  height: auto;
+  width: auto;
+  max-width: 13%;      /* optional: avoid overscaling horizontally */
+  display: block;
+  margin: 0 auto;
+}
+
+.hero-header {
+  background-color: #000;
+  padding: 1rem;
+  position: relative;
+  text-align: center;
+}
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #cc0000;        /* True black */
+  --md-primary-bg-color: #999999;
+  --md-accent-fg-color: #999999;         /* Deep red for highlights */
+  --md-accent-bg-color: transparent;
+}
+
+.favicon-link {
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+}
+
+.blog-icon {
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.hero-nav {
+  background-color: #ffffff;
+  margin: 1%;
+}
+
+.icon-link {
+  height: 3%;
+  width: 3%;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.icon-link:hover {
+  opactiy: 0.7;
+}
+
+.md-social__link {
+  margin-left: 0.5rem;
+}
+
+.md-social__icon {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.md-social__icon:hover {
+  color: #cc0000;
+}
+
+.custom-icon:hover {
+  opacity: 0.7;
+}
+
+.hero-header {
+  position: relative;
+  background-color: #000;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+/* Position the social icons absolutely inside the black header */
+.custom-social-icons {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  padding-right: 10%;
+  padding-bottom: 1%;
+  gap: 1rem;
+  align-items: center;
+  z-index: 1000;
+  pointer-events: auto;
+}
+
+/* Style the image/icon elements */
+.custom-social-icon {
+  width: 20px;
+  height: 20px;
+  transition: opacity 0.2s ease;
+  cursor: pointer;
+}
+
+.custom-social-icon:hover {
+  opacity: 0.7;
+}
+
+.custom-search {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex; 
+  padding-right: 1rem;
+  gap: 1rem;
+  align-items: center;
+  z-index: 1000;
+  pointer-events: auto;
+}
+
+.custom-search .md-search__form {
+  background-color: #000;
+  border-radius: 4px;
+}
+.md-search__input {
+  color: #ffffff;
+  background-color: #000000;  /* optional, if you want full dark style */
+}
+
+.md-search__input::placeholder {
+  color: #999999;
+}
+
+.custom-footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+}
+
+.custom-footer-top {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.custom-footer-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.custom-footer-nav {
+  font-size: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+  color: #cc0000;
+}
+
+.custom-footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}

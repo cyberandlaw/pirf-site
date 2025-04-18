@@ -6,7 +6,9 @@ Infamous in my family, my grandfather asks me to write down a step-by-step guide
 
 Think of this resource as a well-organized compilation of tips from the cybersecurity experts at Cyber and Law in an approachable format regardless of technical skill level. 
 
-The core phases for the PIRF are: 1.[Prevention](framework/prevention/prevention.md),  2. [Detection](framework/detection/detection.md), and  3. [Remediation](framework/remediation/remediation.md). The PIRF matrix below shows a high-level view of actions you can take to prevent, detect, or remediate specific cybersecurity incidents:
+The core phases for the PIRF are: 1.[Prevention](framework/prevention/prevention.md),  2. [Detection](framework/detection/detection.md), and  3. [Remediation](framework/remediation/remediation.md). 
+
+The PIRF matrix below shows a high-level view of actions you can take to prevent, detect, or remediate specific cybersecurity incidents:
 
 | Action/Event                                               | Prevent                         | Detect                               | Remediate                            |
 | ---------------------------------------------------------- | ------------------------------- | ------------------------------------ | ------------------------------------ |
